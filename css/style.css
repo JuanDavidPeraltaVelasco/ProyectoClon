@@ -26,14 +26,14 @@ nav {
 
 ul {
 
-    display: inline-flex;
+    width: 250px;
+    height: auto;
+    list-style: none;
 }
 
 li {
-    list-style: none;
-    width: 250px;
-    height: auto;
-
+    display: inline-flex;
+    justify-content: flex-end;
 }
 
 .menu-icon {
